@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB021A9B199C4DF500041409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB021A9A199C4DF500041409 /* Foundation.framework */; };
+		CB021A9D199C4DF500041409 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB021A9C199C4DF500041409 /* CoreGraphics.framework */; };
+		CB021A9F199C4DF500041409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB021A9E199C4DF500041409 /* UIKit.framework */; };
+		CB021AA5199C4DF500041409 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB021AA3199C4DF500041409 /* InfoPlist.strings */; };
+		CB021AA7199C4DF500041409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB021AA6199C4DF500041409 /* main.m */; };
+		CB021AAB199C4DF500041409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB021AAA199C4DF500041409 /* AppDelegate.m */; };
+		CB021AAD199C4DF500041409 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB021AAC199C4DF500041409 /* Images.xcassets */; };
+		CB021AB4199C4DF500041409 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB021AB3199C4DF500041409 /* XCTest.framework */; };
+		CB021AB5199C4DF500041409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB021A9A199C4DF500041409 /* Foundation.framework */; };
+		CB021AB6199C4DF500041409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB021A9E199C4DF500041409 /* UIKit.framework */; };
+		CB021ABE199C4DF500041409 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB021ABC199C4DF500041409 /* InfoPlist.strings */; };
+		CB021AC0199C4DF500041409 /* Test____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB021ABF199C4DF500041409 /* Test____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB021AB7199C4DF500041409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB021A8F199C4DF500041409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB021A96199C4DF500041409;
+			remoteInfo = "Test淘宝首页";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB021A97199C4DF500041409 /* Test淘宝首页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test淘宝首页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB021A9A199C4DF500041409 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB021A9C199C4DF500041409 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB021A9E199C4DF500041409 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB021AA2199C4DF500041409 /* Test淘宝首页-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test淘宝首页-Info.plist"; sourceTree = "<group>"; };
+		CB021AA4199C4DF500041409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB021AA6199C4DF500041409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB021AA8199C4DF500041409 /* Test淘宝首页-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test淘宝首页-Prefix.pch"; sourceTree = "<group>"; };
+		CB021AA9199C4DF500041409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB021AAA199C4DF500041409 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB021AAC199C4DF500041409 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB021AB2199C4DF500041409 /* Test淘宝首页Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test淘宝首页Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB021AB3199C4DF500041409 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB021ABB199C4DF500041409 /* Test淘宝首页Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test淘宝首页Tests-Info.plist"; sourceTree = "<group>"; };
+		CB021ABD199C4DF500041409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB021ABF199C4DF500041409 /* Test____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Test____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB021A94199C4DF500041409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB021A9D199C4DF500041409 /* CoreGraphics.framework in Frameworks */,
+				CB021A9F199C4DF500041409 /* UIKit.framework in Frameworks */,
+				CB021A9B199C4DF500041409 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB021AAF199C4DF500041409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB021AB4199C4DF500041409 /* XCTest.framework in Frameworks */,
+				CB021AB6199C4DF500041409 /* UIKit.framework in Frameworks */,
+				CB021AB5199C4DF500041409 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB021A8E199C4DF500041409 = {
+			isa = PBXGroup;
+			children = (
+				CB021AA0199C4DF500041409 /* Test淘宝首页 */,
+				CB021AB9199C4DF500041409 /* Test淘宝首页Tests */,
+				CB021A99199C4DF500041409 /* Frameworks */,
+				CB021A98199C4DF500041409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB021A98199C4DF500041409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB021A97199C4DF500041409 /* Test淘宝首页.app */,
+				CB021AB2199C4DF500041409 /* Test淘宝首页Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB021A99199C4DF500041409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB021A9A199C4DF500041409 /* Foundation.framework */,
+				CB021A9C199C4DF500041409 /* CoreGraphics.framework */,
+				CB021A9E199C4DF500041409 /* UIKit.framework */,
+				CB021AB3199C4DF500041409 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB021AA0199C4DF500041409 /* Test淘宝首页 */ = {
+			isa = PBXGroup;
+			children = (
+				CB021AA9199C4DF500041409 /* AppDelegate.h */,
+				CB021AAA199C4DF500041409 /* AppDelegate.m */,
+				CB021AAC199C4DF500041409 /* Images.xcassets */,
+				CB021AA1199C4DF500041409 /* Supporting Files */,
+			);
+			path = "Test淘宝首页";
+			sourceTree = "<group>";
+		};
+		CB021AA1199C4DF500041409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB021AA2199C4DF500041409 /* Test淘宝首页-Info.plist */,
+				CB021AA3199C4DF500041409 /* InfoPlist.strings */,
+				CB021AA6199C4DF500041409 /* main.m */,
+				CB021AA8199C4DF500041409 /* Test淘宝首页-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB021AB9199C4DF500041409 /* Test淘宝首页Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB021ABF199C4DF500041409 /* Test____Tests.m */,
+				CB021ABA199C4DF500041409 /* Supporting Files */,
+			);
+			path = "Test淘宝首页Tests";
+			sourceTree = "<group>";
+		};
+		CB021ABA199C4DF500041409 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB021ABB199C4DF500041409 /* Test淘宝首页Tests-Info.plist */,
+				CB021ABC199C4DF500041409 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB021A96199C4DF500041409 /* Test淘宝首页 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB021AC3199C4DF500041409 /* Build configuration list for PBXNativeTarget "Test淘宝首页" */;
+			buildPhases = (
+				CB021A93199C4DF500041409 /* Sources */,
+				CB021A94199C4DF500041409 /* Frameworks */,
+				CB021A95199C4DF500041409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test淘宝首页";
+			productName = "Test淘宝首页";
+			productReference = CB021A97199C4DF500041409 /* Test淘宝首页.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB021AB1199C4DF500041409 /* Test淘宝首页Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB021AC6199C4DF500041409 /* Build configuration list for PBXNativeTarget "Test淘宝首页Tests" */;
+			buildPhases = (
+				CB021AAE199C4DF500041409 /* Sources */,
+				CB021AAF199C4DF500041409 /* Frameworks */,
+				CB021AB0199C4DF500041409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB021AB8199C4DF500041409 /* PBXTargetDependency */,
+			);
+			name = "Test淘宝首页Tests";
+			productName = "Test淘宝首页Tests";
+			productReference = CB021AB2199C4DF500041409 /* Test淘宝首页Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB021A8F199C4DF500041409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					CB021AB1199C4DF500041409 = {
+						TestTargetID = CB021A96199C4DF500041409;
+					};
+				};
+			};
+			buildConfigurationList = CB021A92199C4DF500041409 /* Build configuration list for PBXProject "Test淘宝首页" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB021A8E199C4DF500041409;
+			productRefGroup = CB021A98199C4DF500041409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB021A96199C4DF500041409 /* Test淘宝首页 */,
+				CB021AB1199C4DF500041409 /* Test淘宝首页Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB021A95199C4DF500041409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB021AA5199C4DF500041409 /* InfoPlist.strings in Resources */,
+				CB021AAD199C4DF500041409 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB021AB0199C4DF500041409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB021ABE199C4DF500041409 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB021A93199C4DF500041409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB021AAB199C4DF500041409 /* AppDelegate.m in Sources */,
+				CB021AA7199C4DF500041409 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB021AAE199C4DF500041409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB021AC0199C4DF500041409 /* Test____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB021AB8199C4DF500041409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB021A96199C4DF500041409 /* Test淘宝首页 */;
+			targetProxy = CB021AB7199C4DF500041409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB021AA3199C4DF500041409 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB021AA4199C4DF500041409 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB021ABC199C4DF500041409 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB021ABD199C4DF500041409 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB021AC1199C4DF500041409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB021AC2199C4DF500041409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB021AC4199C4DF500041409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test淘宝首页/Test淘宝首页-Prefix.pch";
+				INFOPLIST_FILE = "Test淘宝首页/Test淘宝首页-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB021AC5199C4DF500041409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test淘宝首页/Test淘宝首页-Prefix.pch";
+				INFOPLIST_FILE = "Test淘宝首页/Test淘宝首页-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB021AC7199C4DF500041409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test淘宝首页.app/Test淘宝首页";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test淘宝首页/Test淘宝首页-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Test淘宝首页Tests/Test淘宝首页Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB021AC8199C4DF500041409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test淘宝首页.app/Test淘宝首页";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test淘宝首页/Test淘宝首页-Prefix.pch";
+				INFOPLIST_FILE = "Test淘宝首页Tests/Test淘宝首页Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB021A92199C4DF500041409 /* Build configuration list for PBXProject "Test淘宝首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB021AC1199C4DF500041409 /* Debug */,
+				CB021AC2199C4DF500041409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB021AC3199C4DF500041409 /* Build configuration list for PBXNativeTarget "Test淘宝首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB021AC4199C4DF500041409 /* Debug */,
+				CB021AC5199C4DF500041409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB021AC6199C4DF500041409 /* Build configuration list for PBXNativeTarget "Test淘宝首页Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB021AC7199C4DF500041409 /* Debug */,
+				CB021AC8199C4DF500041409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB021A8F199C4DF500041409 /* Project object */;
+}
