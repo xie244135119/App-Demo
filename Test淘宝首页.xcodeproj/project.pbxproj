@@ -19,6 +19,13 @@
 		CB021AB6199C4DF500041409 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB021A9E199C4DF500041409 /* UIKit.framework */; };
 		CB021ABE199C4DF500041409 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB021ABC199C4DF500041409 /* InfoPlist.strings */; };
 		CB021AC0199C4DF500041409 /* Test____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB021ABF199C4DF500041409 /* Test____Tests.m */; };
+		CBF2241319A1DE7B002950EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF2241219A1DE7B002950EB /* ViewController.m */; };
+		CBF2242719A1F0C0002950EB /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF2242119A1F0C0002950EB /* blueArrow.png */; };
+		CBF2242819A1F0C0002950EB /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF2242219A1F0C0002950EB /* blueArrow@2x.png */; };
+		CBF2242919A1F0C0002950EB /* blueArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF2242319A1F0C0002950EB /* blueArrowDown.png */; };
+		CBF2242A19A1F0C0002950EB /* blueArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF2242419A1F0C0002950EB /* blueArrowDown@2x.png */; };
+		CBF2242B19A1F0C0002950EB /* PullingRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF2242619A1F0C0002950EB /* PullingRefreshTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBF2242E19A2023F002950EB /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF2242D19A2023F002950EB /* IndexViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,16 @@
 		CB021ABB199C4DF500041409 /* Test淘宝首页Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test淘宝首页Tests-Info.plist"; sourceTree = "<group>"; };
 		CB021ABD199C4DF500041409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB021ABF199C4DF500041409 /* Test____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Test____Tests.m"; sourceTree = "<group>"; };
+		CBF2241119A1DE7B002950EB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBF2241219A1DE7B002950EB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBF2242119A1F0C0002950EB /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		CBF2242219A1F0C0002950EB /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		CBF2242319A1F0C0002950EB /* blueArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrowDown.png; sourceTree = "<group>"; };
+		CBF2242419A1F0C0002950EB /* blueArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrowDown@2x.png"; sourceTree = "<group>"; };
+		CBF2242519A1F0C0002950EB /* PullingRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullingRefreshTableView.h; sourceTree = "<group>"; };
+		CBF2242619A1F0C0002950EB /* PullingRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullingRefreshTableView.m; sourceTree = "<group>"; };
+		CBF2242C19A2023F002950EB /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		CBF2242D19A2023F002950EB /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +124,15 @@
 		CB021AA0199C4DF500041409 /* Test淘宝首页 */ = {
 			isa = PBXGroup;
 			children = (
+				CBF2242019A1F0C0002950EB /* PullingRefreshTableView */,
 				CB021AA9199C4DF500041409 /* AppDelegate.h */,
 				CB021AAA199C4DF500041409 /* AppDelegate.m */,
 				CB021AAC199C4DF500041409 /* Images.xcassets */,
 				CB021AA1199C4DF500041409 /* Supporting Files */,
+				CBF2241119A1DE7B002950EB /* ViewController.h */,
+				CBF2241219A1DE7B002950EB /* ViewController.m */,
+				CBF2242C19A2023F002950EB /* IndexViewController.h */,
+				CBF2242D19A2023F002950EB /* IndexViewController.m */,
 			);
 			path = "Test淘宝首页";
 			sourceTree = "<group>";
@@ -142,6 +164,19 @@
 				CB021ABC199C4DF500041409 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBF2242019A1F0C0002950EB /* PullingRefreshTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2242119A1F0C0002950EB /* blueArrow.png */,
+				CBF2242219A1F0C0002950EB /* blueArrow@2x.png */,
+				CBF2242319A1F0C0002950EB /* blueArrowDown.png */,
+				CBF2242419A1F0C0002950EB /* blueArrowDown@2x.png */,
+				CBF2242519A1F0C0002950EB /* PullingRefreshTableView.h */,
+				CBF2242619A1F0C0002950EB /* PullingRefreshTableView.m */,
+			);
+			path = PullingRefreshTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF2242819A1F0C0002950EB /* blueArrow@2x.png in Resources */,
+				CBF2242919A1F0C0002950EB /* blueArrowDown.png in Resources */,
+				CBF2242A19A1F0C0002950EB /* blueArrowDown@2x.png in Resources */,
+				CBF2242719A1F0C0002950EB /* blueArrow.png in Resources */,
 				CB021AA5199C4DF500041409 /* InfoPlist.strings in Resources */,
 				CB021AAD199C4DF500041409 /* Images.xcassets in Resources */,
 			);
@@ -239,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF2241319A1DE7B002950EB /* ViewController.m in Sources */,
+				CBF2242B19A1F0C0002950EB /* PullingRefreshTableView.m in Sources */,
 				CB021AAB199C4DF500041409 /* AppDelegate.m in Sources */,
 				CB021AA7199C4DF500041409 /* main.m in Sources */,
+				CBF2242E19A2023F002950EB /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +479,7 @@
 				CB021AC5199C4DF500041409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB021AC6199C4DF500041409 /* Build configuration list for PBXNativeTarget "Test淘宝首页Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +488,7 @@
 				CB021AC8199C4DF500041409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

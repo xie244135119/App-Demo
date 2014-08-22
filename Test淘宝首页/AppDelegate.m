@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "IndexViewController.h"
 
 @implementation AppDelegate
 
@@ -14,10 +16,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    IndexViewController *VC = [[IndexViewController alloc]init];
+    self.window.rootViewController = VC;
+
     
-    
-    
-    
+//    UIButton *bt = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [bt setTitle:@"测试" forState:UIControlStateNormal];
+//    [bt setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+//    [bt setFrame:CGRectMake(100, 100, 100, 40)];
+//    [bt setBackgroundImage:[self backgroundimg:bt.bounds.size] forState:UIControlStateHighlighted];
+//    [self.window addSubview:bt];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
@@ -25,11 +33,17 @@
 }
 
 
--(void)initScrollView
+-(UIImage *)backgroundimg:(CGSize)size
 {
-    UIScrollView *scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
+    UIGraphicsBeginImageContext(size);
+    CGContextRef ref = UIGraphicsGetCurrentContext();
+//    CGContextSetFillColorWithColor(ref, [[UIColor blackColor] CGColor]);
+    [[UIColor colorWithRed:(float)217/255 green:(float)217/255 blue:(float)217/255 alpha:1] setFill];
+    CGContextFillRect(ref, CGRectMake(0, 0, size.width, size.height));
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
     
-    [self.window addSubview:scrollView];
+    return img;
 }
 
 
